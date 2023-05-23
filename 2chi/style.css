@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: #ecf4ff;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+  min-height: 70px;
+  padding: 13px 0 11px 0;
+}
+
+.catalog {
+  background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+  border-radius: 8px;
+  display: flex;
+  column-gap: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+  color: white;
+  margin-right: 60px;
+  border: none;
+}
+
+.form-input::placeholder {
+
+  color: #6C757D !important;
+}
+
+.search {
+  width: 396px;
+  color: white;
+}
+
+.nav__right--item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background: #ecf4ff;
+  font-size: 20px;
+  margin: 0 13px;
+}
+
+.nav__right--item button {
+  padding: 13px 31px;
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+  border-radius: 10px;
+  border: none;
+  margin-left: 59px;
+  color: #101828;
+}
+
+#intro {
+  padding-top: 40px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 46%;
+  border-radius: 23px;
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+.carousel-control-prev:hover {
+  background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+.carousel-control-next:hover {
+  background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+.carousel-control-next {
+  right: -62px !important;
+}
+
+.carousel-control-prev {
+  left: -60px !important;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators button {
+  position: relative;
+  width: 16px !important;
+  height: 16px !important;
+  background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+  border-radius: 50%;
+}
+
+/* category section start */
+
+#category {
+  padding-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category_slide {
+  margin-top: 15px;
+  column-gap: 16px;
+}
+
+.card {
+  text-align: center;
+  width: 148px;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.card>img {
+  width: 136px;
+  height: 136px;
+  object-fit: contain;
+  transform: scale(0.7);
+  transition: all 0.4s ease;
+
+}
+
+.card>img:hover {
+  transform: scale(0.9);
+}
+
+.card p {
+  padding: 10px;
+  font-size: 16px !important;
+}
+
+.category__btn {
+  height: 50px;
+  cursor: pointer;
+}
+
+.category__btn p {
+  margin: 12px;
+
+}
+
+/* category section end */
+
+#more {
+  padding-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sales_cards {
+  column-gap: 36px !important;
+  row-gap: 25px !important;
+}
+
+.sales-card {
+
+  width: 230px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff !important;
+  border-radius: 10px;
+
+
+}
+
+.img {
+  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  transform: scale(0.7);
+  transition: all 0.4s ease;
+}
+
+.img:hover {
+  transform: scale(0.9);
+}
+
+.btn1 {
+  cursor: pointer;
+  background-color: #fff !important;
+  width: 220px;
+
+}
+
+.btn1 span {
+  margin-left: auto;
+}
+
+.card_body {
+  padding: 10px;
+
+}
+
+.card_body>small {
+  margin-bottom: 10px;
+}
+
+.shopcart {
+  display: inline-block;
+  width: 155px !important;
+  height: 40px;
+  background-color: #fff;
+  cursor: pointer;
+
+}
+
+.desc {
+  background-color: #fff !important;
+  cursor: pointer;
+}
+
+/* dreem section start */
+#dreem {
+  margin-bottom: 86px;
+}
+
+/* dreem section end */
+
+/* popular section start */
+
+#popular {
+  margin-bottom: 60px;
+}
+
+/* popular section end */
+
+/* brends section start */
+
+#brends {
+  margin-bottom: 60px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.brend_cards {
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.brend_card {
+
+  background-color: #fff !important;
+  padding: 5px 50px !important;
+  cursor: pointer;
+}
+
+.foto {
+  width: 90px;
+  height: 90px;
+  transform: scale(0.7);
+  transition: all 0.4s ease;
+}
+
+.foto:hover {
+  transform: scale(0.9);
+}
+
+/* brends section end */
+
+/* shops section start */
+#shops {
+  margin-bottom: 80px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shop-cards {
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.shop-card {
+  background-color: #fff !important;
+  padding: 5px 50px !important;
+  cursor: pointer;
+}
+
+.shop {
+  width: 90px;
+  height: 90px;
+  transform: scale(0.7);
+  transition: all 0.4s ease;
+}
+.shop:hover{
+  transform: scale(0.9);
+}
+
+/* shops section end */
+
+/* footer section start */
+footer {
+  padding-top: 60px;
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #4D5EF6 !important;
+  color: #4D5EF6 !important;
+
+}
+
+.top_side {
+  margin-bottom: 41px;
+}
+
+.top_side__list1 {
+  padding: 0 !important;
+  column-gap: 100px !important;
+}
+
+.top_side__list2 {
+  padding: 0 !important;
+}
+
+.top_side__list3 {
+  padding: 0 !important;
+}
+
+.top_side__list3--item {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+
+}
+
+.social_link svg {
+  width: 32px;
+  height: 32px;
+}
+
+.bottom_side {
+  position: relative;
+  padding-top: 38px;
+  margin-bottom: 38px;
+}
+
+.bottom_side::before {
+  content: "";
+  display: block;
+  width: 1300px;
+  height: 2px;
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+  position: absolute;
+  top: 0;
+
+}
+
+
+
+/* footer section end */
